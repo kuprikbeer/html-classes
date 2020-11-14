@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	color: #fff;
+	font-family:sans-serif; 
+}
+.wrap {
+	width: 450px;
+	height: 280px;
+	background-color:#0690CFFF;
+	margin: 100px auto;
+	border:2px solid #0075B4FF;
+
+}
+.form{
+	width: 420px;
+	margin: 0 auto;
+
+}
+.email{
+	padding-top: 30px;
+
+}
+.title {
+	padding:15px 15px;
+	font-size: 25px;
+	border-bottom: 1px solid #fff;
+
+}
+.pass {
+	padding-top: 20px;
+	display: inline-block;
+}
+.repeat {
+	display: inline-block;
+	padding:0 0 30px 30px;
+}
+.button {
+	padding: 5px;
+	background-color: #FDE085FF;
+	box-shadow: none;
+}
