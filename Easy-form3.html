@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Easy-form2</title>
+</head>
+<body>
+	<form action="#" method="get">
+		<div>ИМЯ:</div>
+		<input type="text" placeholder="Введите ваше имя" required>
+		<div>ФАМИЛИЯ:</div>
+		<input type="text" placeholder="Введите вашу фамилию" required><br>
+		<div>ПОЛ:</div>
+		<label ><input type="radio" name="option" value="Муж" checked><span>Муж</span></label>
+		<label ><input type="radio" name="option" value="Жен"><span>Жен</span></label><br>
+		<div>ВЛАДЕНИЕ ЯЗЫКОМ:</div>
+		<label ><input type="checkbox" name="language" checked><span>Русский</span></label><br>
+		<label ><input type="checkbox" name="language"><span>Беларуская</span></label><br>
+		<label ><input type="checkbox" name="language"><span>English</span></label><br>
+		<div>СТРАНА ПРОЖИВАНИЯ:</div>
+		<select name="select" id="">
+    		<option value="value1">Беларусь</option>
+    		<option value="value2">Россия</option>
+    		<option value="value3">Англия</option>
+    		<option value="value1">Норвегия</option>
+    		<option value="value2">Лапландия</option>
+    		<option value="value3">Воображляндия</option>
+        </select><br>
+        <div>ВАШЕ ФОТО ДЛЯ ПРОФИЛЯ:</div>
+        <input type="file" name="file"><br>
+		<br><input type="submit" value="Отправить">
+	</form>
+</body>
+</html>
