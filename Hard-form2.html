@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Hard-form2.css">
+	<title>Hard-form2</title>
+</head>
+<body>
+	<div class="wrap">
+		<form action="#" method="get" id="hardform"></form>
+		<table class="table">
+			<caption >Анкета Web-разработчика</caption>
+			<tr>
+				<td>Регистрационное имя</td>
+				<td><input type="text" name="text" form="hardform"></td>
+			</tr>
+			<tr>
+				<td>Пароль</td>
+				<td><input type="password" name="password" form="hardform"><br>
+				<input type="password" name="password" form="hardform"><span>:подтвердите пароль</span></td>
+			</tr>
+			<tr>
+				<td>Ваша специализация</td>
+				<td>
+					<select>
+	        			<option value="first specialization" form="hardform">Web-мастер</option>
+	        			<option value="second specialization" form="hardform">Web-шмайстер</option>
+	        			<option value="third specialization" form="hardform">Web-ломастер</option>
+	        		</select>
+	        	</td>
+			</tr>
+			<tr>
+				<td>Пол</td>
+				<td>
+					<input type="radio" name="sex" form="hardform" value="man" checked><span>М</span>
+					<input type="radio" name="sex" form="hardform" value="woman"><span>Ж</span>
+				</td>
+			</tr>
+			<tr>
+				<td>Ваши навыки</td>
+				<td>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание HTML и CSS</span><br>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание Perl</span><br>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание ASP</span><br>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание Adobe Photoshop</span><br>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание JAVA</span><br>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание JavaScript</span><br>
+					<input type="checkbox" name="skill" form="hardform"><span>Знание Flash</span>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>Дополнительные <br>сведения о себе</td>
+				<td><textarea name="textarea"  cols="30" rows="5" form="hardform"></textarea></td>
+			</tr>
+		</table>
+		<div class="btn">
+			<input type="submit" name="submit" value="Зарегистрировать" form="hardform">
+	    	<input type="reset" name="reset" value="Очистить форму" form="hardform">
+	    </div>
+    </div>
+</body>
+
+</html>
